@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div method="dialog" id="form">
+        <div class="close-btn">&times;</div>
+        <h2><b>Log in</b></h2><br>
+        <div class="form-ele">
+            <input type="text" name="fname" id="fname" placeholder="Enter Full Name" required><br>
+        </div>
+        <div class="form-ele">
+            <input type="email" name="email" id="email" placeholder="Enter E-Mail" required><br>
+        </div>
+        <div class="form-ele">
+            <input type="tel" name="pnumber" id="pnumber" placeholder="Phone Number" required><br>
+        </div>
+        <div id="gender">
+            <label for="gender" class="lbG">Gender: </label>
+            <input type="radio" name="gender">
+            <label for="male" class="lbG">Male</label>
+            <input type="radio" name="gender">
+            <label for="female" class="lbG">Female</label>
+            <input type="radio" name="gender">
+            <label for="other" class="lbG">Other</label>
+        </div>
+        <button type="submit" id="btn">Submit</button>
+    </div>
+</body>
+
+</html>
